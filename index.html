@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Erinnr App - Privacy Policy</title>
+  <title>erinner - Privacy Policy</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -17,96 +17,104 @@
     h2 { color: #374151; margin-top: 30px; }
     ul { padding-left: 20px; }
     a { color: #2563eb; }
-    footer { margin-top: 40px; font-size: 0.9em; color: #6b7280; }
+    footer { margin-top: 40px; font-size: 0.9em; color: #6b7280; border-top: 1px solid #e5e7eb; padding-top: 20px; }
   </style>
 </head>
 <body>
 
-<h1>Privacy Policy for Erinnr App</h1>
-<p>Last updated: April 29, 2026</p>
+<h1>Privacy Policy for erinner</h1>
+<p><strong>Last updated:</strong> July 20, 2026</p>
 <p>
-  This Privacy Policy explains how Erinnr App ("we", "our", or "us") collects, uses, 
-  and protects your information when you use our mobile application. By using Erinnr App, 
-  you agree to the practices described in this policy.
+  This Privacy Policy explains how <strong>erinner</strong> ("we", "our", or "us") collects, uses, 
+  and protects your personal information when you use our mobile application. We are committed to protecting 
+  your privacy and processing your data in accordance with the <strong>General Data Protection Regulation (GDPR)</strong> and applicable EU/EEA laws.
 </p>
 
-<h2>1. About Erinnr App</h2>
+<h2>1. Data Controller</h2>
 <p>
-  Erinnr App is a task management application that allows users to create tasks using 
-  voice-to-text input. Our AI (powered by Mistral AI) automatically structures your spoken 
-  input into well-formatted tasks with titles, descriptions, and due dates. Users can 
-  authenticate via email OTP and add tasks by scanning QR codes.
+  The Data Controller responsible for processing your personal data is:
+  <br><br>
+  <strong>Application:</strong> erinner<br>
+  <strong>Contact Email:</strong> <a href="mailto:aleksicapps@gmail.com">aleksicapps@gmail.com</a>
 </p>
 
-<h2>2. Information We Collect</h2>
+<h2>2. About erinner</h2>
+<p>
+  <strong>erinner</strong> is an AI-powered task management application designed to help users quickly capture and organize tasks. 
+  Our app uses voice-to-text input, Optical Character Recognition (OCR) for photos, and AI models powered by 
+  Mistral AI to convert your spoken words or photos into structured tasks with titles, descriptions, and due dates. Users authenticate securely via email OTP.
+</p>
+
+<h2>3. Information We Collect & Legal Basis (GDPR)</h2>
 <ul>
-  <li><strong>Email address:</strong> Collected during registration and login via OTP (one-time password) for authentication purposes only.</li>
-  <li><strong>Voice/Audio data:</strong> Recorded temporarily to convert speech to text for task creation. Audio is not stored permanently.</li>
-  <li><strong>Task data:</strong> Titles, descriptions, due dates, and other task content you create within the app.</li>
-  <li><strong>Device information:</strong> Basic device data used for app functionality and crash reporting.</li>
+  <li><strong>Email Address:</strong> Collected during login and registration via email OTP (one-time password) for secure account creation and authentication. <em>(Legal Basis: Performance of a Contract - Art. 6(1)(b) GDPR)</em></li>
+  <li><strong>Voice/Audio Data:</strong> Temporarily recorded when you use voice-to-text to generate tasks. Audio files are processed in real time and are not permanently stored. <em>(Legal Basis: Consent - Art. 6(1)(a) GDPR)</em></li>
+  <li><strong>Photos & Document Data:</strong> Captured via camera or photo library for OCR (Optical Character Recognition) to extract text and auto-generate tasks. Images are discarded after processing. <em>(Legal Basis: Consent - Art. 6(1)(a) GDPR)</em></li>
+  <li><strong>Task Content:</strong> Task titles, descriptions, due dates, and reminders created within the app. <em>(Legal Basis: Performance of a Contract - Art. 6(1)(b) GDPR)</em></li>
+  <li><strong>Device Identifiers & Advertising ID:</strong> Firebase Cloud Messaging (FCM) tokens and Google Advertising ID (<code>AD_ID</code>) used for delivering task notifications and app performance diagnostics. <em>(Legal Basis: Consent / Legitimate Interest - Art. 6(1)(a/f) GDPR)</em></li>
 </ul>
 
-<h2>3. Device Permissions</h2>
+<h2>4. Device Permissions</h2>
 <ul>
-  <li><strong>Camera:</strong> Used exclusively for scanning QR codes to add or import tasks. We do not capture, store, or transmit photos or videos.</li>
-  <li><strong>Microphone:</strong> Used for voice-to-text task creation and speech recognition. Audio is processed in real time and not stored.</li>
-  <li><strong>Storage:</strong> Used to save your tasks and app preferences locally on your device.</li>
-  <li><strong>Notifications:</strong> Used to deliver task reminders and alerts you set within the app.</li>
-  <li><strong>Biometrics:</strong> Optionally used for faster login via fingerprint or Face ID. Biometric data never leaves your device.</li>
+  <li><strong>Microphone:</strong> Used for voice-to-text task creation. Audio is processed in real time and not stored permanently.</li>
+  <li><strong>Camera & Photos:</strong> Used exclusively for OCR text extraction from photos to generate tasks, or scanning QR codes. We do not store or share your personal photo gallery.</li>
+  <li><strong>Notifications:</strong> Used to deliver push notifications and task reminders configured by you via Firebase Cloud Messaging (FCM).</li>
+  <li><strong>Storage:</strong> Used to save your local task cache and app preferences on your device.</li>
+  <li><strong>Biometrics:</strong> Optionally used for faster app unlock via fingerprint or Face ID. Biometric data remains secure on your device and is never transmitted.</li>
 </ul>
 
-<h2>4. How We Use Your Information</h2>
+<h2>5. AI Data Processing</h2>
+<p>
+  Text generated from your voice or OCR photo scans is processed by <strong>Mistral AI</strong> to structure tasks automatically. 
+  <strong>Your data is processed strictly via API calls and is not used to train public AI models.</strong>
+</p>
+
+<h2>6. Third-Party Services</h2>
+<p>erinner relies on the following third-party service providers to deliver app functions:</p>
 <ul>
-  <li>To authenticate you securely via email OTP</li>
-  <li>To process voice input and generate structured tasks using Mistral AI</li>
-  <li>To send task reminders and notifications you configure</li>
-  <li>To manage your subscription through RevenueCat</li>
-  <li>To improve app performance and fix issues via Firebase</li>
+  <li><strong>Mistral AI</strong> — AI model processing to structure task titles, descriptions, and dates. <a href="https://mistral.ai/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
+  <li><strong>Firebase / Google Play Services</strong> — Email authentication, FCM push notifications, app diagnostics, and Advertising ID management. <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
+  <li><strong>RevenueCat</strong> — Manages in-app subscriptions and purchase validation. <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
 </ul>
 
-<h2>5. Third-Party Services</h2>
-<p>Erinnr App uses the following third-party services, each with their own privacy policies:</p>
+<h2>7. Data Retention & Account Deletion</h2>
+<p>
+  We retain your account and task data for as long as your account remains active. Temporary voice recordings and image files are deleted immediately after text transcription and task extraction complete.
+  <br><br>
+  You may request full deletion of your account and associated personal data at any time by contacting us at <a href="mailto:aleksicapps@gmail.com">aleksicapps@gmail.com</a>.
+</p>
+
+<h2>8. Your Rights Under the GDPR</h2>
+<p>If you reside in the EU/EEA, you hold the following rights regarding your personal data:</p>
 <ul>
-  <li><strong>Mistral AI</strong> — Processes voice/text input to generate structured task content. <a href="https://mistral.ai/privacy" target="_blank">Privacy Policy</a></li>
-  <li><strong>Firebase (Google)</strong> — Used for push notifications and crash analytics. <a href="https://firebase.google.com/support/privacy" target="_blank">Privacy Policy</a></li>
-  <li><strong>RevenueCat</strong> — Manages in-app subscriptions and purchase validation. <a href="https://www.revenuecat.com/privacy" target="_blank">Privacy Policy</a></li>
+  <li><strong>Right to Access (Art. 15):</strong> Request a copy of your personal data.</li>
+  <li><strong>Right to Rectification (Art. 16):</strong> Request correction of inaccurate data.</li>
+  <li><strong>Right to Erasure (Art. 17):</strong> Request deletion of your personal data ("Right to be forgotten").</li>
+  <li><strong>Right to Restrict Processing (Art. 18):</strong> Request restrictions on how your data is processed.</li>
+  <li><strong>Right to Data Portability (Art. 20):</strong> Request your data in a portable electronic format.</li>
+  <li><strong>Right to Withdraw Consent (Art. 7(3)):</strong> Revoke permission for camera, microphone, or push notifications at any time in device settings.</li>
+  <li><strong>Right to Lodge a Complaint:</strong> File a complaint with your local EU Data Protection Authority.</li>
 </ul>
 
-<h2>6. Data Storage and Security</h2>
+<h2>9. Children's Privacy</h2>
 <p>
-  Your task data is stored locally on your device and, where applicable, on secure servers. 
-  We implement industry-standard security measures to protect your data. 
-  We do not sell, rent, or share your personal data with third parties for marketing purposes.
+  <strong>erinner</strong> is not intended for children under 16 years of age. We do not knowingly collect personal information from children.
 </p>
 
-<h2>7. Data Retention</h2>
+<h2>10. Changes to This Policy</h2>
 <p>
-  We retain your data for as long as your account is active. You may request deletion 
-  of your account and associated data at any time by contacting us.
+  We may update this Privacy Policy from time to time. We will notify you of any major changes by updating the policy in the app or on this webpage. Continued use of the app constitutes acceptance of the updated terms.
 </p>
 
-<h2>8. Children's Privacy</h2>
+<h2>11. Contact Us</h2>
 <p>
-  Erinnr App is not intended for children under the age of 13. We do not knowingly 
-  collect personal information from children.
-</p>
-
-<h2>9. Changes to This Policy</h2>
-<p>
-  We may update this Privacy Policy from time to time. We will notify you of significant 
-  changes via the app or email. Continued use of the app after changes constitutes 
-  acceptance of the updated policy.
-</p>
-
-<h2>10. Contact Us</h2>
-<p>
-  If you have any questions or concerns about this Privacy Policy or your data, 
-  please contact us at:<br><br>
+  If you have any questions, concerns, or GDPR requests regarding this Privacy Policy, please contact us at:
+  <br><br>
   <strong>Email:</strong> <a href="mailto:aleksicapps@gmail.com">aleksicapps@gmail.com</a>
 </p>
 
 <footer>
-  <p>© 2026 Erinnr App. All rights reserved.</p>
+  <p>© 2026 erinner. All rights reserved.</p>
 </footer>
 
 </body>
